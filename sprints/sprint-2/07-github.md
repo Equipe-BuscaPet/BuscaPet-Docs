@@ -3,7 +3,7 @@
 Organização: **https://github.com/Equipe-BuscaPet**, com 3 repositórios:
 
 - [`BuscaPet-App`](https://github.com/Equipe-BuscaPet/BuscaPet-App) — código (backend, núcleo OpenCL, frontend, infra local)
-- [`Documentos`](https://github.com/Equipe-BuscaPet/Documentos) — este repositório, com toda a documentação do projeto
+- [`BuscaPet-Docs`](https://github.com/Equipe-BuscaPet/BuscaPet-Docs) — este repositório, com toda a documentação do projeto
 - `.github` — perfil da organização
 
 ## Por que dois repositórios (código e documentação) em vez de um só
@@ -15,7 +15,7 @@ criado antes da arquitetura técnica estar fechada. Como o projeto usa um único
 (`BuscaPet-App`) — evita duplicar CI, versionamento de contrato de API e setup
 de ambiente entre repositórios separados de back e front. A documentação
 (escopo, planejamento, entregas de sprint) fica num repositório à parte
-(`Documentos`) porque tem ciclo de vida e público diferente do código — cresce a
+(`BuscaPet-Docs`) porque tem ciclo de vida e público diferente do código — cresce a
 cada sprint independentemente de commits de código, e é o que se anexa/linka
 nas entregas da disciplina.
 
@@ -33,14 +33,14 @@ BuscaPet-App/
   docs/schema.sql         modelo relacional (DDL), espelha api/app/models/
   docker-compose.yml      orquestra os 5 serviços locais (frontend, api, nucleo-opencl, db, redis)
   .github/workflows/ci.yml   lint (ruff) + testes (pytest) a cada Pull Request
-  CLAUDE.md               contexto do projeto para quem usa IA no desenvolvimento
+  CONTEXTO.md             contexto do projeto para quem usa IA no desenvolvimento
   README.md
 ```
 
-## Estrutura deste repositório (`Documentos`)
+## Estrutura deste repositório (`BuscaPet-Docs`)
 
 ```
-Documentos/
+BuscaPet-Docs/
   README.md                 índice geral
   planejamento/              escopo, plano de sprints, fluxos de tela, notas técnicas
   sprints/
@@ -58,5 +58,5 @@ Documentos/
 - [x] Workflow de CI configurado
 - [x] Repositórios criados dentro da organização `Equipe-BuscaPet`
 - [x] Primeiro commit de cada integrante em `BuscaPet-App` — Nivaldo, Kaian e Marlon já commitaram
-- [ ] Primeiro commit de Marlon em `Documentos` — só Nivaldo e Kaian commitaram aqui até agora
-- [ ] Link definitivo dos repositórios inserido no PDF final antes do envio (nota: o repositório de documentação foi renomeado de `Docs` para `Documentos` após a geração do `BuscaPet-Sprint2.docx`/`.pdf` — os links nesse PDF ainda apontam para o nome antigo, que não existe mais)
+- [ ] Primeiro commit de Marlon em `BuscaPet-Docs` — só Nivaldo e Kaian commitaram aqui até agora
+- [ ] Link definitivo dos repositórios inserido no PDF final antes do envio (nota: o repositório de documentação mudou de nome ao longo do projeto — `Docs`, `Documentos` e, por fim, `BuscaPet-Docs` — e o `BuscaPet-Sprint2.docx`/`.pdf` gerado em 19/09 pode ter links para um nome anterior)

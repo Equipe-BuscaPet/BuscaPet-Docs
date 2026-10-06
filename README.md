@@ -1,4 +1,4 @@
-# Documentos — BuscaPet
+# BuscaPet-Docs
 
 Documentação do projeto BuscaPet (UNINASSAU — Fábrica de Software, Tópicos
 Avançados e Extensão IV). Código-fonte em

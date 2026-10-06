@@ -689,7 +689,7 @@ buscapet/
   docs/                   escopo, plano de sprints, fluxos de tela, notas técnicas e as entregas desta Sprint 2
   docker-compose.yml      orquestra os 5 serviços locais (frontend, api, nucleo-opencl, db, redis)
   .github/workflows/ci.yml   lint (ruff) + testes (pytest) a cada Pull Request
-  CLAUDE.md               contexto do projeto para quem usa IA no desenvolvimento
+  CONTEXTO.md             contexto do projeto para quem usa IA no desenvolvimento
   README.md
 ```
 
