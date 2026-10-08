@@ -19,10 +19,13 @@ Entregas de cada sprint da disciplina Fábrica de Software:
 
 - [`sprint-1/`](sprints/sprint-1/) — definição do problema, objetivos, RFs/RNFs, backlog
 - [`sprint-2/`](sprints/sprint-2/) — arquitetura, diagrama de classes, MER, modelo relacional, protótipo, banco de dados criado
-- [`sprint-3/`](sprints/sprint-3/) — login e cadastro integrados ao banco, perfis de acesso, CRUD de animais, interface web e execução local
+- [`sprint-3/`](sprints/sprint-3/) — login e cadastro integrados ao banco, perfis de acesso, CRUD de animais, interface web e execução local (resumo em texto: [`00-resumo-sprint3.md`](sprints/sprint-3/00-resumo-sprint3.md))
 
 ## processos/
 
-Documentos explicando decisões e processos do time ao longo do projeto (ex.:
-como configuramos o banco no Supabase, como rodamos as migrations) — pasta em
-construção, alimentada conforme o time documenta cada processo.
+Guias de "como fazer" para o time:
+
+- [`comecando-a-trabalhar-no-projeto.md`](processos/comecando-a-trabalhar-no-projeto.md) — **comece por aqui**: clonar, rodar, abrir o Claude com contexto e fluxo de entrega
+- [`banco-supabase-e-migrations.md`](processos/banco-supabase-e-migrations.md) — Supabase, Postgres local no Docker e migrations
+
+O resumo do projeto para quem usa IA fica no `CONTEXTO.md` do repositório `BuscaPet-App`.
