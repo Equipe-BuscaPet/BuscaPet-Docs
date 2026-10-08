@@ -27,6 +27,9 @@ docker compose up -d --build db redis api frontend
 docker compose exec api alembic upgrade head
 ```
 
+- Puxou mudanças que alteram o `package.json` do frontend (dependência nova, como o Leaflet do mapa)? O volume do
+  `node_modules` do container é reaproveitado e fica desatualizado. Renove-o com
+  `docker compose up -d --build -V frontend`.
 - `docker compose down` mantém os dados; `docker compose down -v` apaga o volume (banco zerado).
 - Criar admin: `docker compose exec api python -m app.scripts.criar_admin --nome "..." --email ...`
 - No Windows, o Docker Desktop precisa do WSL 2 (`wsl --install` num PowerShell como administrador,

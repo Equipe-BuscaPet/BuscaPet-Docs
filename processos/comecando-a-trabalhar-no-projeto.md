@@ -33,7 +33,7 @@ Siga o `README.md` do `BuscaPet-App`. O caminho mais curto é o Docker (seção 
 Na pasta `BuscaPet-App`, inicie o Claude e diga:
 
 > Leia o CONTEXTO.md e o README.md. Depois leia, no repositório BuscaPet-Docs (pasta ao lado),
-> o README.md e sprints/sprint-3/00-resumo-sprint3.md. Resuma o que entendeu antes de começar.
+> o README.md e sprints/sprint-4/00-resumo-sprint4.md. Resuma o que entendeu antes de começar.
 
 O `CONTEXTO.md` não é lido sozinho; sem essa instrução o Claude começa sem saber nada do projeto.
 
