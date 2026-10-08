@@ -20,6 +20,7 @@ Entregas de cada sprint da disciplina Fábrica de Software:
 - [`sprint-1/`](sprints/sprint-1/) — definição do problema, objetivos, RFs/RNFs, backlog
 - [`sprint-2/`](sprints/sprint-2/) — arquitetura, diagrama de classes, MER, modelo relacional, protótipo, banco de dados criado
 - [`sprint-3/`](sprints/sprint-3/) — login e cadastro integrados ao banco, perfis de acesso, CRUD de animais, interface web e execução local (resumo em texto: [`00-resumo-sprint3.md`](sprints/sprint-3/00-resumo-sprint3.md))
+- [`sprint-4/`](sprints/sprint-4/) — primeiro módulo completo (Adoção): selo Verificado, interesse de adoção, mapa de abrigos, validações e mensagens de erro (resumo em texto: [`00-resumo-sprint4.md`](sprints/sprint-4/00-resumo-sprint4.md))
 
 ## processos/
 
