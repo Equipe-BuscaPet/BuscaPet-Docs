@@ -6,4 +6,10 @@ algum processo — não é o resultado em si (isso fica em `planejamento/` ou
 foi provisionado no Supabase, como as migrations são rodadas, como uma
 decisão de arquitetura foi tomada e por quê.
 
-Pasta em construção — ainda sem documentos.
+## Índice
+
+| Documento | Do que trata |
+|---|---|
+| [`comecando-a-trabalhar-no-projeto.md`](comecando-a-trabalhar-no-projeto.md) | Preparar a máquina, clonar, rodar e abrir o Claude com contexto |
+| [`banco-supabase-e-migrations.md`](banco-supabase-e-migrations.md) | Banco compartilhado no Supabase e como rodar as migrations |
+| [`nucleo-opencl-spike-e-servico.md`](nucleo-opencl-spike-e-servico.md) | Spike OpenCL (gate da Sprint 1 interna), esqueleto do serviço do núcleo e primeira medição |
