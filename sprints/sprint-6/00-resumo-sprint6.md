@@ -38,7 +38,7 @@ mapa e ficha do animal → perfil do abrigo → mural.
 
 "Quem apoia" no menu principal; itens reais no menu da conta no lugar do "Em breve"; "Ver abrigo" no mapa abre o
 perfil; nome do abrigo na ficha virou link; "Quero apoiar" abre o cadastro como apoiador; cartões de necessidade com
-progresso. **Pendente:** menu principal no celular rola na horizontal e esconde o último item.
+progresso; no celular, o menu principal mostra os quatro itens sem rolar para o lado (antes "Quem apoia" ficava escondido).
 
 ## Banco e testes
 
@@ -49,4 +49,4 @@ histórico de 3 meses.
 ## Próximos passos
 
 Sprint 7: painel da administração com indicadores, relatórios com exportação, filtros e logs de auditoria. Mapa dos
-parceiros, e-mail e cabeçalho móvel.
+parceiros e e-mail.
