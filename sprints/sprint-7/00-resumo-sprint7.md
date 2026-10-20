@@ -9,7 +9,7 @@ Requisitos: RF-38 (painel admin), RF-39 (auditoria), RF-40 (relatórios).
 | Entrega do roteiro | Como foi atendida |
 |---|---|
 | Dashboard | `/admin` → Painel: indicadores do período (adoções, reencontros, doações, contas novas), "agora" (abrigos para verificar, perdidos ativos, doações aguardando, necessidades), 3 gráficos mensais (6 meses) com opção de tabela, retratos de hoje e últimas ações |
-| Relatórios | `/relatorios` (abrigo): interesses, adoções, tempo médio até a adoção, origem dos interessados, doações por apoiador e por item; relatório de abrigos da administração (CSV) |
+| Relatórios | `/relatorios` (abrigo): interesses, adoções, tempo médio até a adoção, origem dos interessados, doações por apoiador e por item (cartões de altura fixa com as 5 primeiras linhas e "Ver todos" sob demanda); relatório de abrigos da administração (CSV) |
 | Pesquisas | Contas (nome, e-mail, nome do abrigo); histórico (quem fez e detalhes, ex.: nome do animal) |
 | Filtros | Período (30 dias, 90 dias, este ano, datas) no painel, relatórios e histórico; ação; tipo de conta; situação |
 | Exportação | CSV (`;` + BOM para o Excel): histórico, abrigos, interesses, doações, animais — respeita os filtros |
@@ -25,7 +25,7 @@ Requisitos: RF-38 (painel admin), RF-39 (auditoria), RF-40 (relatórios).
 
 ## Testes e bugs
 
-125 testes da API (14 novos) e 66 E2E (6 novos); 13/13 rotas novas conferidas no PostgreSQL; roteiro 17/17 com 4
+126 testes da API (15 novos) e 67 E2E (7 novos); 13/13 rotas novas conferidas no PostgreSQL; roteiro 17/17 com 4
 downloads reais. Bugs corrigidos: relatório com erro 500 no Postgres (GROUP BY com coalesce), CSV com nome genérico
 (CORS sem `Content-Disposition`), detalhes do CSV com `;` e ids internos, tempo até a adoção em frações.
 
