@@ -36,7 +36,7 @@ para `#b24c18` (4,76:1 no pior caso). Nenhum defeito aberto.
 
 ## Documentação atualizada
 
-README (testes e comandos), `docs/schema.sql` (coluna `animais.removido_em`, migration 0004), CI com cobertura
+README (testes e comandos), `CONTEXTO.md` e `frontend/README.md` (testes das Sprints 6 a 9), `docs/schema.sql` (coluna `animais.removido_em`, migration 0004), CI com cobertura
 mínima, `requirements.txt` com `pytest-cov`.
 
 ## Próximos passos
