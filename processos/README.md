@@ -13,3 +13,4 @@ decisão de arquitetura foi tomada e por quê.
 | [`comecando-a-trabalhar-no-projeto.md`](comecando-a-trabalhar-no-projeto.md) | Preparar a máquina, clonar, rodar e abrir o Claude com contexto |
 | [`banco-supabase-e-migrations.md`](banco-supabase-e-migrations.md) | Banco compartilhado no Supabase e como rodar as migrations |
 | [`nucleo-opencl-spike-e-servico.md`](nucleo-opencl-spike-e-servico.md) | Spike OpenCL (gate da Sprint 1 interna), esqueleto do serviço do núcleo e primeira medição |
+| [`telas-reencontro-rf19-rf20.md`](telas-reencontro-rf19-rf20.md) | Telas de perdidos e achados: assistente em etapas, decisões de experiência, defeitos achados no teste |
