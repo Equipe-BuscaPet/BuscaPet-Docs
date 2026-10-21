@@ -32,15 +32,18 @@ Siga o `README.md` do `BuscaPet-App`. O caminho mais curto é o Docker (seção 
 
 Na pasta `BuscaPet-App`, inicie o Claude e diga:
 
-> Leia o CONTEXTO.md e o README.md. Depois leia, no repositório BuscaPet-Docs (pasta ao lado),
-> o README.md e sprints/sprint-4/00-resumo-sprint4.md. Resuma o que entendeu antes de começar.
+> Leia o README.md e o docs/manual-tecnico.md. Depois leia, no repositório BuscaPet-Docs (pasta ao lado),
+> o README.md e o resumo da Sprint mais recente (sprints/sprint-N/00-resumo-sprintN.md). Resuma o que entendeu
+> antes de começar.
 
-O `CONTEXTO.md` não é lido sozinho; sem essa instrução o Claude começa sem saber nada do projeto.
+O `CONTEXTO.md` (decisões, plano interno e histórico de cada sessão) saiu do repositório na Sprint 10 e fica na
+**pasta local da equipe**, que não vai para o Git. Se você a recebeu, peça também para o Claude ler o
+`LEIA-PRIMEIRO-CLAUDE.md` e o `CONTEXTO.md` de lá.
 
 Boas práticas:
 - **Uma sessão por tarefa.** Termine, commite, feche. Não use uma sessão única para o projeto todo.
-- Diga em qual **Sprint** está falando: a oficial da disciplina ou o plano interno (seção 3 do `CONTEXTO.md`).
-- Não peça para reabrir as decisões fechadas (seção 5 do `CONTEXTO.md`) sem um motivo novo.
+- Diga em qual **Sprint** está falando: a oficial da disciplina ou o plano interno (`planejamento/plano-sprints-equipe-3.md`).
+- Não peça para reabrir as decisões fechadas (veja [`documentacao-final.md`](../documentacao-final.md), seção de decisões) sem um motivo novo.
 - Se o Claude propuser um commit com `Co-Authored-By: Claude`, remova: a equipe decidiu não listar o
   Claude como contribuidor.
 - Nunca cole senhas, a `DATABASE_URL` ou o `.env` numa conversa.

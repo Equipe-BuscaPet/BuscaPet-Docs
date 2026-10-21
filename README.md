@@ -4,6 +4,11 @@ Documentação do projeto BuscaPet (UNINASSAU — Fábrica de Software, Tópicos
 Avançados e Extensão IV). Código-fonte em
 [`BuscaPet-App`](https://github.com/Equipe-BuscaPet/BuscaPet-App).
 
+## Comece por aqui
+
+- [`documentacao-final.md`](documentacao-final.md) — **documentação final consolidada**: onde está cada documento vigente, as decisões que mudaram durante o projeto e os 41 requisitos funcionais, um a um
+- [`manuais/`](manuais/) — **Manual do Usuário** ([PDF](manuais/BuscaPet-Manual-do-Usuario.pdf) · [texto](manuais/manual-do-usuario.md)) e **Manual Técnico** ([PDF](manuais/BuscaPet-Manual-Tecnico.pdf) · [texto no repositório do código](https://github.com/Equipe-BuscaPet/BuscaPet-App/blob/main/docs/manual-tecnico.md))
+
 ## planejamento/
 
 Documentos-base do projeto, anteriores às sprints:
@@ -26,6 +31,8 @@ Entregas de cada sprint da disciplina Fábrica de Software:
 - [`sprint-7/`](sprints/sprint-7/) — sistema quase completo: painel da administração com gráficos, relatórios do abrigo, pesquisas, filtros, exportação CSV e histórico de operações (resumo em texto: [`00-resumo-sprint7.md`](sprints/sprint-7/00-resumo-sprint7.md))
 - [`sprint-8/`](sprints/sprint-8/) — sistema praticamente concluído: fotos dos animais, denúncia e moderação, recuperação de senha e e-mail, filtros combinados, matriz de permissões, usabilidade e revisão das regras (resumo em texto: [`00-resumo-sprint8.md`](sprints/sprint-8/00-resumo-sprint8.md))
 - [`sprint-9/`](sprints/sprint-9/) — testes completos: casos de teste funcionais, de validação e de navegação, cobertura de 94%, varredura de 225 páginas, acessibilidade (WCAG 2.1 AA) e registro de bugs (resumo em texto: [`00-resumo-sprint9.md`](sprints/sprint-9/00-resumo-sprint9.md))
+- [`sprint-10/`](sprints/sprint-10/) — versão Release Candidate (`1.0.0-rc.1`): sistema estável, revisão de 102 telas, banco final (MER gerado dos modelos), guia da API com as 77 rotas e README (resumo em texto: [`00-resumo-sprint10.md`](sprints/sprint-10/00-resumo-sprint10.md))
+- [`sprint-11/`](sprints/sprint-11/) — preparação para entrega: manual do usuário, manual técnico, documentação final consolidada, revisão completa do código (segurança das bibliotecas, redirecionamento no login, imagens Docker) e organização do GitHub (resumo em texto: [`00-resumo-sprint11.md`](sprints/sprint-11/00-resumo-sprint11.md))
 
 ## processos/
 
@@ -37,4 +44,4 @@ Guias de "como fazer" para o time:
 - [`telas-reencontro-rf19-rf20.md`](processos/telas-reencontro-rf19-rf20.md) — telas de perdidos e achados (assistente em etapas) e defeitos achados no teste
 - [`mapa-pwa-notificacoes-e-testes.md`](processos/mapa-pwa-notificacoes-e-testes.md) — mapa com abas e filtros, app instalável, notificações e testes de ponta a ponta
 
-O resumo do projeto para quem usa IA fica no `CONTEXTO.md` do repositório `BuscaPet-App`.
+O retrato técnico atual do sistema fica no [manual técnico](https://github.com/Equipe-BuscaPet/BuscaPet-App/blob/main/docs/manual-tecnico.md) do `BuscaPet-App`; o histórico de decisões e sessões (`CONTEXTO.md`) fica na pasta local da equipe, fora do Git.
