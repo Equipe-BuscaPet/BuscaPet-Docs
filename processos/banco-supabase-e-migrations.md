@@ -22,10 +22,13 @@ Supabase é combinada diretamente com o Nivaldo, nunca pelo repositório.
 ## Docker local
 
 ```bash
-cp .env.example .env                       # Windows: Copy-Item .env.example .env
-docker compose up -d --build db redis api frontend
+# 1) crie o arquivo .env na raiz do BuscaPet-App (as linhas estão no README, seção "Docker Compose")
+docker compose up -d --build db api frontend
 docker compose exec api alembic upgrade head
 ```
+
+- O `.env.example` saiu do repositório na Sprint 10 (PR #19): as linhas do `.env` ficam no README. O Redis saiu na
+  Sprint 11: nunca foi usado (o monitoramento das buscas acontece na hora do registro).
 
 - Puxou mudanças que alteram o `package.json` do frontend (dependência nova, como o Leaflet do mapa)? O volume do
   `node_modules` do container é reaproveitado e fica desatualizado. Renove-o com
