@@ -28,5 +28,8 @@ Guias de "como fazer" para o time:
 
 - [`comecando-a-trabalhar-no-projeto.md`](processos/comecando-a-trabalhar-no-projeto.md) — **comece por aqui**: clonar, rodar, abrir o Claude com contexto e fluxo de entrega
 - [`banco-supabase-e-migrations.md`](processos/banco-supabase-e-migrations.md) — Supabase, Postgres local no Docker e migrations
+- [`nucleo-opencl-spike-e-servico.md`](processos/nucleo-opencl-spike-e-servico.md) — spike OpenCL (gate da Sprint 1 interna), serviço do núcleo e primeira medição
+- [`telas-reencontro-rf19-rf20.md`](processos/telas-reencontro-rf19-rf20.md) — telas de perdidos e achados (assistente em etapas) e defeitos achados no teste
+- [`mapa-pwa-notificacoes-e-testes.md`](processos/mapa-pwa-notificacoes-e-testes.md) — mapa com abas e filtros, app instalável, notificações e testes de ponta a ponta
 
 O resumo do projeto para quem usa IA fica no `CONTEXTO.md` do repositório `BuscaPet-App`.
