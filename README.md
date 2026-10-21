@@ -22,6 +22,7 @@ Entregas de cada sprint da disciplina Fábrica de Software:
 - [`sprint-3/`](sprints/sprint-3/) — login e cadastro integrados ao banco, perfis de acesso, CRUD de animais, interface web e execução local (resumo em texto: [`00-resumo-sprint3.md`](sprints/sprint-3/00-resumo-sprint3.md))
 - [`sprint-4/`](sprints/sprint-4/) — primeiro módulo completo (Adoção): selo Verificado, interesse de adoção, mapa de abrigos, validações e mensagens de erro (resumo em texto: [`00-resumo-sprint4.md`](sprints/sprint-4/00-resumo-sprint4.md))
 - [`sprint-5/`](sprints/sprint-5/) — segundo módulo funcionando (Perdidos e achados): registro com fotos, privacidade da localização, alerta de avistamento perto, caso resolvido, testes e bugs corrigidos (resumo em texto: [`00-resumo-sprint5.md`](sprints/sprint-5/00-resumo-sprint5.md))
+- [`sprint-6/`](sprints/sprint-6/) — aprimoramento do sistema: terceiro módulo (Doações e apoiadores: mural, doação com confirmação, ranking por categoria, perfis públicos), integração entre os módulos, interface e navegação (resumo em texto: [`00-resumo-sprint6.md`](sprints/sprint-6/00-resumo-sprint6.md))
 
 ## processos/
 
