@@ -23,9 +23,9 @@ modo leve (mesma comparação, em C sequencial), por causa dos 512 MB do plano g
 | Sistema finalizado | publicado na versão `1.0.0`, com 11 animais, fotos reais de cães e gatos (CC BY 4.0) e a busca por foto validada (Luna em 1º, nota 0,93) |
 | Correção de bugs | 6 correções registradas no documento; pytest: **255 passando, 1 pulado**, cobertura de 94%; E2E na CI: **90 passando, 1 pulado, 1 instável** |
 | Code freeze com tag | feito: tag e release [`v1.0.0`](https://github.com/Equipe-BuscaPet/BuscaPet-App/releases/tag/v1.0.0), commit `a31053e` (`main`), 29/10/2026 |
-| Vídeos 16:9 e 9:16 | roteiro em [`roteiro-videos.md`](roteiro-videos.md); gravação pendente |
-| Ensaio | pendente |
+| Vídeos 16:9 e 9:16 | planejados (roteiro em [`roteiro-videos.md`](roteiro-videos.md)); faltam a gravação e os links |
+| Ensaio | ambiente verificado, sequência, falas e plano B registrados no documento; falta o ensaio cronometrado com o time |
 
 ## Pendências
 
-Vídeos e ensaio · **depois de 05/12/2026, trocar todas as senhas** (banco, `JWT_SECRET` e contas de demonstração).
+Gravar e publicar os vídeos (colocar os links na seção 6 do documento) · ensaio cronometrado com o time · **depois de 05/12/2026, trocar todas as senhas** (banco, `JWT_SECRET` e contas de demonstração).
